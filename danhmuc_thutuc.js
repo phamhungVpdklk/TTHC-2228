@@ -44,6 +44,41 @@ const danhMucThuTuc = [
         tieuDe: "Cấp đổi Giấy chứng nhận",
         moTa: "Cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất khi có thay đổi.",
         mauSac: "purple" // Màu viền trên của thẻ
+    },
+    {
+        maTTHC: "1.012784.H19",
+        tenFile: "1.012784.H19.html",
+        tieuDe: "Tách thửa hoặc hợp thửa đất",
+        moTa: "Thực hiện thủ tục tách hoặc hợp thửa đất theo quy định của pháp luật đất đai.",
+        mauSac: "green" 
+    },
+    {
+        maTTHC: "1.012785.H19",
+        tenFile: "1.012785.H19.html",
+        tieuDe: "Cấp GCN cho đất đã chuyển quyền trước 01/8/2024",
+        moTa: "Đăng ký và cấp GCN cho người nhận quyền sử dụng đất trước 01/8/2024 nhưng chưa hoàn tất thủ tục.",
+        mauSac: "teal"
+    },
+    {
+        maTTHC: "1.012786.H19",
+        tenFile: "1.012786.H19.html",
+        tieuDe: "Cấp lại Giấy chứng nhận do bị mất",
+        moTa: "Thực hiện thủ tục cấp lại Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản do bị mất.",
+        mauSac: "orange"
+    },
+    {
+        maTTHC: "1.012787.H19",
+        tenFile: "1.012787.H19.html",
+        tieuDe: "Cấp GCN cho người mua trong dự án BĐS",
+        moTa: "Đăng ký và cấp GCN cho người nhận chuyển nhượng QSDĐ trong các dự án phát triển nhà ở.",
+        mauSac: "cyan"
+    },
+    {
+        maTTHC: "1.012789.H19",
+        tenFile: "1.012789.H19.html",
+        tieuDe: "Cung cấp thông tin, dữ liệu đất đai",
+        moTa: "Khai thác thông tin, dữ liệu từ cơ sở dữ liệu đất đai theo yêu cầu của tổ chức, cá nhân.",
+        mauSac: "slate" 
     }
     // KHI CÓ THỦ TỤC MỚI, BẠN CHỈ CẦN THÊM MỘT KHỐI TƯƠNG TỰ VÀO ĐÂY
 ];
