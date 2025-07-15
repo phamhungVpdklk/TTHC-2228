@@ -50,35 +50,101 @@ const danhMucThuTuc = [
         tenFile: "1.012784.H19.html",
         tieuDe: "Tách thửa hoặc hợp thửa đất",
         moTa: "Thực hiện thủ tục tách hoặc hợp thửa đất theo quy định của pháp luật đất đai.",
-        mauSac: "green" 
+        mauSac: "green" // Màu viền trên của thẻ
     },
     {
         maTTHC: "1.012785.H19",
         tenFile: "1.012785.H19.html",
         tieuDe: "Cấp GCN cho đất đã chuyển quyền trước 01/8/2024",
         moTa: "Đăng ký và cấp GCN cho người nhận quyền sử dụng đất trước 01/8/2024 nhưng chưa hoàn tất thủ tục.",
-        mauSac: "teal"
+        mauSac: "teal" // Màu viền trên của thẻ
     },
     {
         maTTHC: "1.012786.H19",
         tenFile: "1.012786.H19.html",
         tieuDe: "Cấp lại Giấy chứng nhận do bị mất",
         moTa: "Thực hiện thủ tục cấp lại Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản do bị mất.",
-        mauSac: "orange"
+        mauSac: "orange" // Màu viền trên của thẻ
     },
     {
         maTTHC: "1.012787.H19",
         tenFile: "1.012787.H19.html",
         tieuDe: "Cấp GCN cho người mua trong dự án BĐS",
         moTa: "Đăng ký và cấp GCN cho người nhận chuyển nhượng QSDĐ trong các dự án phát triển nhà ở.",
-        mauSac: "cyan"
+        mauSac: "cyan" // Màu viền trên của thẻ
     },
     {
         maTTHC: "1.012789.H19",
         tenFile: "1.012789.H19.html",
         tieuDe: "Cung cấp thông tin, dữ liệu đất đai",
         moTa: "Khai thác thông tin, dữ liệu từ cơ sở dữ liệu đất đai theo yêu cầu của tổ chức, cá nhân.",
-        mauSac: "slate" 
+        mauSac: "slate"  // Màu viền trên của thẻ
+    },
+// Các thủ tục mới bổ sung (dán vào mảng danhMucThuTuc trong danhmuc_thutuc.js)
+    {
+        maTTHC: "1.012790.H19",
+        tenFile: "1.012790.H19.html",
+        tieuDe: "Đính chính Giấy chứng nhận đã cấp",
+        moTa: "Thực hiện thủ tục đính chính sai sót thông tin trên Giấy chứng nhận đã cấp.",
+        mauSac: "rose" // Tailwind color
+    },
+    {
+        maTTHC: "1.012791.H19",
+        tenFile: "1.012791.H19.html",
+        tieuDe: "Thu hồi và cấp lại Giấy chứng nhận đã cấp không đúng quy định",
+    	moTa: "Thu hồi Giấy chứng nhận cấp không đúng quy định và cấp lại sau khi thu hồi.",
+    	mauSac: "emerald"  // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.012796.H19",
+    	tenFile: "1.012796.H19.html",
+    	tieuDe: "Đính chính Giấy chứng nhận đã cấp lần đầu có sai sót",
+    	moTa: "Đính chính sai sót trên Giấy chứng nhận được cấp lần đầu.",
+    	mauSac: "pink"  // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.012805.H19",
+    	tenFile: "1.012805.H19.html",
+    	tieuDe: "Giải quyết tranh chấp đất đai thuộc thẩm quyền của Chủ tịch UBND cấp tỉnh",
+    	moTa: "Giải quyết tranh chấp đất đai thuộc thẩm quyền Chủ tịch UBND cấp tỉnh.",
+    	mauSac: "amber"  // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.012812.H19",
+    	tenFile: "1.012812.H19.html",
+    	tieuDe: "Hòa giải tranh chấp đất đai",
+    	moTa: "Hòa giải tranh chấp đất đai tại cấp xã.",
+    	mauSac: "lime"  // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.012817.H19",
+   	tenFile: "1.012817.H19.html",
+    	tieuDe: "Xác định lại diện tích đất ở của hộ gia đình, cá nhân đã được cấp Giấy chứng nhận trước ngày 01/7/2004",
+    	moTa: "Xác định lại diện tích đất ở của hộ gia đình, cá nhân cấp GCN trước ngày 01/7/2004.",
+    	mauSac: "fuchsia"  // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.012818.H19",
+    	tenFile: "1.012818.H19.html",
+    	tieuDe: "Thu hồi và cấp lại Giấy chứng nhận đã cấp lần đầu không đúng quy định",
+    	moTa: "Thu hồi Giấy chứng nhận cấp lần đầu không đúng quy định và cấp lại sau khi thu hồi.",
+    	mauSac: "stone"  // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.013831.H19",
+    	tenFile: "1.013831.H19.html",
+    	tieuDe: "Đăng ký biến động QSDĐ, QSH tài sản (chuyển đổi, chuyển nhượng, thừa kế, tặng cho...)",
+    	moTa: "Đăng ký biến động quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trong các trường hợp chuyển đổi, chuyển nhượng, thừa kế, tặng cho, góp vốn.",
+    	mauSac: "sky"  // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.013833.H19",
+    	tenFile: "1.013833.H19.html",
+    	tieuDe: "Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất...",
+    	moTa: "Đăng ký biến động khi có thay đổi thông tin người sử dụng đất, thửa đất hoặc hạn chế quyền, giảm diện tích do sạt lở.",
+    	mauSac: "violet" // Màu viền trên của thẻ
     }
+
+	
     // KHI CÓ THỦ TỤC MỚI, BẠN CHỈ CẦN THÊM MỘT KHỐI TƯƠNG TỰ VÀO ĐÂY
 ];
