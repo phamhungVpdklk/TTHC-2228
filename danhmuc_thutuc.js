@@ -143,6 +143,41 @@ const danhMucThuTuc = [
     	tieuDe: "Đăng ký biến động đối với trường hợp đổi tên hoặc thay đổi thông tin về người sử dụng đất...",
     	moTa: "Đăng ký biến động khi có thay đổi thông tin người sử dụng đất, thửa đất hoặc hạn chế quyền, giảm diện tích do sạt lở.",
     	mauSac: "violet" // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.011441",
+    	tenFile: "1.011441.html",
+    	tieuDe: "Đăng ký biện pháp bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất",
+    	moTa: "Đăng ký biện pháp bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất.",
+    	mauSac: "orange" // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.011442",
+    	tenFile: "1.011442.html",
+    	tieuDe: "Đăng ký thay đổi biện pháp bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất",
+    	moTa: "Đăng ký thay đổi biện pháp bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất.",
+    	mauSac: "emerald"  // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.011443",
+    	tenFile: "1.011443.html",
+    	tieuDe: "Xóa đăng ký biện pháp bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất",
+    	moTa: "Xóa đăng ký biện pháp bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất.",
+    	mauSac: "red" // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.011444",
+    	tenFile: "1.011444.html",
+    	tieuDe: "Đăng ký thông báo xử lý tài sản bảo đảm, đăng ký thay đổi, xóa đăng ký thông báo xử lý tài sản bảo đảm ...",
+    	moTa: "Đăng ký thông báo xử lý tài sản bảo đảm, đăng ký thay đổi, xóa đăng ký thông báo xử lý tài sản bảo đảm là quyền sử dụng đất, tài sản gắn liền với đất.",
+    	mauSac: "indigo" // Màu viền trên của thẻ
+    },
+    {
+    	maTTHC: "1.011445",
+    	tenFile: "1.011445.html",
+    	tieuDe: "Chuyển tiếp đăng ký thế chấp quyền tài sản phát sinh từ hợp đồng mua bán nhà ở hoặc từ hợp đồng mua bán tài sản khác gắn liền với đất",
+    	moTa: "Chuyển tiếp đăng ký thế chấp quyền tài sản phát sinh từ hợp đồng mua bán nhà ở hoặc từ hợp đồng mua bán tài sản khác gắn liền với đất.",
+    	mauSac: "pink"  // Màu viền trên của thẻ
     }
 
 	
